@@ -15,7 +15,7 @@ int main(){
     printf("Digite o valor de seu Peso: ");
     scanf("%d",&peso);
 
-    soma = idade + altura + peso;
-    printf("Minha soma e %d", soma );
+    soma = (idade + altura + peso)/3;
+    printf("Minha media dos valores e de %d", soma );
     return 0;
 }
