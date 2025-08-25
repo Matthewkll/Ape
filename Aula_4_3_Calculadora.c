@@ -20,7 +20,7 @@ int main(){
     resultado = valor_a - valor_b;
     }else if (operacao == 'm' || operacao == 'M'){
         resultado = valor_a * valor_b;
-    } else if (operacao  == 'd' || operacao == 'D'){
+    } else if (operacao == 'd' || operacao == 'D'){
         resultado = valor_a / valor_b;
     }
     // Saida de valores
