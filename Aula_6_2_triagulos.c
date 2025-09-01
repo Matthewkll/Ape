@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&valor_c);
 
     if(valor_a == valor_b == valor_c){
-        printf("Este e um triangulo Equilatero!");
+        printf("Este um triangulo Equilatero!");
     } else if ( valor_a != valor_b != valor_c){
         printf( "Este e um triangulo Escaleno" );
     } else {
