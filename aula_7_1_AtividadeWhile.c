@@ -8,7 +8,10 @@ int main(){
 
     printf("\nEntre com um numero: ");
     scanf("%f",&numero);
-    
+    if(numero!=0){
+        soma = soma + numero;
+        total+ total + 1;
+    }
     while (numero > 0 )
     {
     
@@ -29,7 +32,7 @@ int main(){
         if(total == 1){
             printf("\nFoi inserido %.0f numero", total);
         }else{
-            printf("\nForam inseridos %.0f numero", total);
+            printf("\nForam inseridos %.0f numeros", total);
             printf("\nA media dos numeros entrados e: %f", soma/total);
         }
         
