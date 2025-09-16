@@ -23,7 +23,7 @@ int main(){
             printf("Seu numero esta bem abaixo do valor. Tente novamante: ");
              scanf("%d", &num);
         } else{
-            break;
+            
         }
     
     } 

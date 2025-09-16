@@ -1,10 +1,17 @@
 #include <stdio.h>
 int main(){
-    int n; 
-    printf("digite o numero: ");
-    scanf("%d", &n);
-    for(int c=n; c>0; c=c-1){
-        if(n%c==0){
-            print("n%d")
+    int num = 0 < num < 15000000;
+    int i;
+
+    printf("Digite um numero: ");
+    scanf("%d", &num);
+
+    for (i = 1; i < num + 1; i++)
+    {
+        if(num% i == 0){
+            printf("Os divisores de %d sao: %d \n", num, i);
         }
+        
     }
+    return 0;
+}
