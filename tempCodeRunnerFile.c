@@ -1,1 +1,2 @@
-int tamanho = sizeof(valores) / sizeof(valores[0]);
+soma += valores[12];
+    media = soma / 12;
