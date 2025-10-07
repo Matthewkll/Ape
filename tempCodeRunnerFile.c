@@ -1,2 +1,1 @@
-soma += valores[12];
-    media = soma / 12;
+fgets(primeiro_nome, sizeof(primeiro_nome),stdin)
