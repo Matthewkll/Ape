@@ -1,1 +1,1 @@
-fgets(primeiro_nome, sizeof(primeiro_nome),stdin)
+#include <stdio.h>
